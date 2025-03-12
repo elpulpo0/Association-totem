@@ -33,8 +33,6 @@ export function renderActions() {
             <p>TOTEM-PACA développe un projet unique : créer un centre de soins pour accueillir, soigner et réhabiliter les animaux sauvages en détresse dans le Var, un département encore dépourvu de structure dédiée. Ce centre combinera des espaces de soins intensifs et des volières pour préparer les animaux à retrouver leur habitat naturel.
               En plus de sauver des centaines d’animaux chaque année, ce projet vise à sensibiliser le public, former des professionnels et contribuer à la protection de la biodiversité de la région. Ensemble, nous pouvons offrir une seconde chance à la faune sauvage.</p>
           </div>
-      </section>
-
 
           <!-- Bloc Centre de soins oiseaux d'eau -->
           <div id="centre-oiseaux-eau" class="care-center">
