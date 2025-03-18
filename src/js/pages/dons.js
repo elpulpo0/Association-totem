@@ -11,11 +11,6 @@ export function renderDons() {
           <h3>Donner pour le projet de création du centre de soins du Var.</h3>
           <p>Soutenez un projet structurant pour la conservation de la faune sauvage du Var</p>
           
-          <section id="telechargement-pdf" class="section">
-            <button onclick="window.open('files/Dossier_TOTEM.pdf', '_blank');" class="download-button">
-              Télécharger le dossier de présentation
-            </button>
-          </section>
         </div>
 
         <div class="subsection">
