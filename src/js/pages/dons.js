@@ -29,7 +29,7 @@ export function renderDons() {
           <a href="https://www.helloasso.com/associations/totem-paca/formulaires/1/" target="_blank">
             <img src="images/HelloAsso.png" alt="Faire un don" width="25%">
           </a>
-          <p><i>Si le formulaire de don ne s'affiche pas, cliquez sur le logo HelloAsso ci dessus</i></p>
+          <p><i>Si le formulaire de don ne s'affiche pas, cliquez sur le logo HelloAsso ci dessus.</i></p>
         </div>
       </div>
       </section>
@@ -61,6 +61,14 @@ export function renderDons() {
               height="1000px">
             </iframe>
           </div>
+        </div>
+
+        <div class="subsection">
+        <div>
+          <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2025" target="_blank">
+            <img src="images/HelloAsso.png" alt="Adhésion 2025" width="25%">
+          </a>
+          <p><i>Si le formulaire d'adhésion' ne s'affiche pas, cliquez sur le logo HelloAsso ci dessus.</i></p>
         </div>
       </section>
     </div>
