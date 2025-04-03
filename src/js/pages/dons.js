@@ -13,16 +13,25 @@ export function renderDons() {
           
         </div>
 
+        // <div class="subsection">
+        //   <div>
+        //     <iframe 
+        //       src="https://www.helloasso.com/associations/totem-paca/formulaires/1/widget" 
+        //       frameborder="0" 
+        //       width="100%" 
+        //       height="1000px">
+        //     </iframe>
+        //   </div>
+        // </div>
+
         <div class="subsection">
-          <div>
-            <iframe 
-              src="https://www.helloasso.com/associations/totem-paca/formulaires/1/widget" 
-              frameborder="0" 
-              width="100%" 
-              height="1000px">
-            </iframe>
-          </div>
+        <div>
+          <h2>Faire un don au TOTEM</h2>
+          <a href="https://www.helloasso.com/associations/totem-paca/formulaires/1/" target="_blank">
+            <img src="images/HelloAsso.png" alt="Faire un don" width="100%">
+          </a>
         </div>
+      </div>
       </section>
 
       <section id="image-section" class="image-section">
