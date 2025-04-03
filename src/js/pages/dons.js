@@ -29,7 +29,7 @@ export function renderDons() {
           <a href="https://www.helloasso.com/associations/totem-paca/formulaires/1/" target="_blank">
             <img src="images/HelloAsso.png" alt="Faire un don" width="25%">
           </a>
-          <p>Si le formulaire de don ne s'affiche pas, cliquez sur le logo HelloAsso</p>
+          <p><i>Si le formulaire de don ne s'affiche pas, cliquez sur le logo HelloAsso ci dessus</i></p>
         </div>
       </div>
       </section>
