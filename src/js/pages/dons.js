@@ -20,7 +20,6 @@ export function renderDons() {
               frameborder="0" 
               width="100%" 
               height="1000px">
-              sandbox="allow-scripts allow-same-origin allow-popups">
             </iframe>
           </div>
         </div>
@@ -60,7 +59,6 @@ export function renderDons() {
               frameborder="0" 
               width="100%" 
               height="1000px">
-              sandbox="allow-scripts allow-same-origin allow-popups">
             </iframe>
           </div>
         </div>
@@ -86,6 +84,10 @@ export function renderDons() {
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s ease;
+      }
+
+      iframe {
+        min-height: 1000px; /* Permet d'assurer une hauteur minimum pour l'iframe */
       }
 
       .download-button:hover {
