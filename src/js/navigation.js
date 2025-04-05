@@ -7,7 +7,7 @@ export const menuStructure = {
     "Quelques chiffres",
   ],
   "Nos actions et nos projets": ["La ligne SOS", "Les centres de soins"],
-  "Dons et adhésions": ["Appel au don", "Adhésion"],
+  "Dons et adhésions": [],
   "Contact et presse": ["Formulaire contact", "Press room"],
 };
 

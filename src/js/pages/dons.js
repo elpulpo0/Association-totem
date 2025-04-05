@@ -6,11 +6,11 @@ export function renderDons() {
       <div class="row">
         <!-- Section Appel au don -->
         <section id="appel-au-don" class="section">
-          <h2 class="section-title">Appel au don pour le centre de soins du Var</h2>
+          <h2 class="section-title">Appel au don</h2>
           
           <div class="subsection">
             <h3>Donner pour le projet de création du centre de soins du Var.</h3>
-            <p>Soutenez un projet structurant pour la conservation de la faune sauvage du Var</p>
+            <p>Soutenez un projet structurant pour la conservation de la faune sauvage du Var.</p>
           </div>
 
           <div class="subsection">
@@ -112,6 +112,19 @@ export function renderDons() {
       .image-hero {
         width: auto;
         max-width: 100%;
+      }
+
+      /* Media Query pour petits écrans */
+      @media (max-width: 768px) {
+        .row {
+          flex-direction: column;  /* Empile les sections verticalement */
+          align-items: center;  /* Centre les sections */
+        }
+
+        .section {
+          min-width: 100%;  /* Assure que chaque section prend toute la largeur disponible */
+          margin-bottom: 20px; /* Ajoute un espacement entre les sections */
+        }
       }
     </style>
   `;
