@@ -51,15 +51,17 @@ export function renderDons() {
             </div>
           </div>
 
+          <div class="subsection">
             <div>
               <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2025" target="_blank">
                 <img src="images/HelloAsso.png" alt="Adhésion 2025" width="25%">
               </a>
             </div>
+          </div>
         </section>
       </div>
 
-      <section>
+      <section id="image-section" class="image-section">
         <img src="images/Herisson.png" alt="Hérisson" class="image-hero">
       </section>
     </div>
@@ -108,7 +110,8 @@ export function renderDons() {
       }
 
       .image-hero {
-        width: 100%;
+        width: auto;
+        max-width: 100%;
       }
     </style>
   `;
