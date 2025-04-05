@@ -65,7 +65,7 @@ export function createNavigation() {
       const submenu = document.createElement("ul");
       submenu.className = "submenu";
 
-      if (Array.isArray(subItems)) {
+      if (Array.isArray(subItems) && subItems.length > 0) {
         subItems.forEach((subItem) => {
           createSubmenuItem(submenu, subItem, normalizedMainItem);
         });
