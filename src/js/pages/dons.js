@@ -59,7 +59,7 @@ export function renderDons() {
         </section>
       </div>
 
-      <section id="image-section" class="image-section">
+      <section>
         <img src="images/Herisson.png" alt="Hérisson" class="image-hero">
       </section>
     </div>
