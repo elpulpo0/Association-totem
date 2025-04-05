@@ -20,6 +20,7 @@ export function renderDons() {
               frameborder="0" 
               width="100%" 
               height="1000px">
+              sandbox="allow-scripts allow-same-origin allow-popups">
             </iframe>
           </div>
         </div>
@@ -59,6 +60,7 @@ export function renderDons() {
               frameborder="0" 
               width="100%" 
               height="1000px">
+              sandbox="allow-scripts allow-same-origin allow-popups">
             </iframe>
           </div>
         </div>
