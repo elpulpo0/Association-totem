@@ -36,7 +36,7 @@ export function renderDons() {
           <h2 class="section-title">Adhésion Totem</h2>
           
           <div class="subsection">
-            <h3>Adhérer à Totem c’est soutenir la conservation et la biodiversité de la région PACA</h3>
+            <h3>Adhérer à Totem c’est soutenir la conservation et la biodiversité.</h3>
             <p>Pour soutenir notre action, vous pouvez également adhérer à notre association.</p>
           </div>
 

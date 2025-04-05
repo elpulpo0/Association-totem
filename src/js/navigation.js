@@ -61,35 +61,14 @@ export function createNavigation() {
     });
     menuItem.appendChild(mainLink);
 
-    if (subItems) {
+    // Création du sous-menu uniquement si subItems n'est pas vide
+    if (Array.isArray(subItems) && subItems.length > 0) {
       const submenu = document.createElement("ul");
       submenu.className = "submenu";
 
-      if (Array.isArray(subItems) && subItems.length > 0) {
-        subItems.forEach((subItem) => {
-          createSubmenuItem(submenu, subItem, normalizedMainItem);
-        });
-      } else {
-        Object.entries(subItems).forEach(([subItem, subSubItems]) => {
-          const subMenuItem = createSubmenuItem(
-            submenu,
-            subItem,
-            normalizedMainItem
-          );
-          if (subSubItems) {
-            const subSubmenu = document.createElement("ul");
-            subSubmenu.className = "submenu";
-            subSubItems.forEach((subSubItem) => {
-              createSubmenuItem(
-                subSubmenu,
-                subSubItem,
-                `${normalizedMainItem}/${subItem}`
-              );
-            });
-            subMenuItem.appendChild(subSubmenu);
-          }
-        });
-      }
+      subItems.forEach((subItem) => {
+        createSubmenuItem(submenu, subItem, normalizedMainItem);
+      });
 
       menuItem.appendChild(submenu);
     }
