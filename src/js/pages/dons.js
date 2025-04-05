@@ -37,7 +37,7 @@ export function renderDons() {
           
           <div class="subsection">
             <h3>Adhérer à Totem c’est soutenir la conservation et la biodiversité de la région PACA</h3>
-            <p>Pour soutenir notre action, vous pouvez également adhérer à notre association. Cette adhésion vous permet de participer activement à nos projets pour la préservation de la faune et de la flore locales.</p>
+            <p>Pour soutenir notre action, vous pouvez également adhérer à notre association.</p>
           </div>
 
           <div class="subsection">
@@ -51,13 +51,11 @@ export function renderDons() {
             </div>
           </div>
 
-          <div class="subsection">
             <div>
               <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2025" target="_blank">
                 <img src="images/HelloAsso.png" alt="Adhésion 2025" width="25%">
               </a>
             </div>
-          </div>
         </section>
       </div>
 
