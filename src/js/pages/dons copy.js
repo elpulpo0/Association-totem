@@ -10,24 +10,28 @@ export function renderDons() {
         <div class="subsection">
           <h3>Donner pour le projet de création du centre de soins du Var.</h3>
           <p>Soutenez un projet structurant pour la conservation de la faune sauvage du Var</p>
-        </div>
-
-        <div class="subsection">
-          <!-- Lien vers le formulaire de don HelloAsso -->
-          <a href="https://www.helloasso.com/associations/totem-paca/formulaires/1/" target="_blank">
-            <button class="don-button">
-              Faire un don
-            </button>
-          </a>
+          
         </div>
 
         <div class="subsection">
           <div>
-            <a href="https://www.helloasso.com/associations/totem-paca/formulaires/1/" target="_blank">
-              <img src="images/HelloAsso.png" alt="Faire un don" width="25%">
-            </a>
+            <iframe 
+              src="https://www.helloasso.com/associations/totem-paca/formulaires/1/widget" 
+              frameborder="0" 
+              width="100%" 
+              height="1000px">
+            </iframe>
           </div>
         </div>
+
+        <div class="subsection">
+        <div>
+          <a href="https://www.helloasso.com/associations/totem-paca/formulaires/1/" target="_blank">
+            <img src="images/HelloAsso.png" alt="Faire un don" width="25%">
+          </a>
+          <p><i>Si le formulaire de don ne s'affiche pas, cliquez sur le logo HelloAsso ci dessus.</i></p>
+        </div>
+      </div>
       </section>
 
       <section id="image-section" class="image-section">
@@ -50,41 +54,26 @@ export function renderDons() {
 
         <div class="subsection">
           <div>
-            <!-- Lien vers la page d'adhésion HelloAsso -->
-            <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2025" target="_blank">
-              <button class="don-button">
-                Adhérer à Totem
-              </button>
-            </a>
+            <iframe 
+              src="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2025/widget" 
+              frameborder="0" 
+              width="100%" 
+              height="1000px">
+            </iframe>
           </div>
         </div>
 
         <div class="subsection">
-          <div>
-            <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2025" target="_blank">
-              <img src="images/HelloAsso.png" alt="Adhésion 2025" width="25%">
-            </a>
-          </div>
+        <div>
+          <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2025" target="_blank">
+            <img src="images/HelloAsso.png" alt="Adhésion 2025" width="25%">
+          </a>
+          <p><i>Si le formulaire d'adhésion' ne s'affiche pas, cliquez sur le logo HelloAsso ci dessus.</i></p>
         </div>
       </section>
     </div>
 
     <style>
-      .don-button {
-        padding: 10px 20px;
-        background-color: var(--color-orange);
-        color: white;
-        font-size: 16px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-      }
-
-      .don-button:hover {
-        background-color: #0056b3;
-      }
-        
       .download-button {
         padding: 10px 20px;
         margin-top: 10px;
@@ -95,6 +84,10 @@ export function renderDons() {
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s ease;
+      }
+
+      iframe {
+        min-height: 1000px; /* Permet d'assurer une hauteur minimum pour l'iframe */
       }
 
       .download-button:hover {
