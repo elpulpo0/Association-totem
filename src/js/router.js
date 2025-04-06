@@ -11,18 +11,18 @@ export class Router {
   }
 
   handleRoute() {
-    const hash = window.location.hash.slice(1) || 'accueil';
+    const hash = window.location.hash.slice(1) || "accueil";
     this.currentPath = hash.toLowerCase();
-    
+
     // Trouve la route la plus spécifique qui correspond
-    let matchedRoute = '';
+    let matchedRoute = "";
     let matchedComponent = null;
-    let section = '';
-    
+    let section = "";
+
     // Extrait la section si elle existe dans le hash
-    const [mainPath, ...sectionParts] = this.currentPath.split('/');
-    section = sectionParts.join('/');
-    
+    const [mainPath, ...sectionParts] = this.currentPath.split("/");
+    section = sectionParts.join("/");
+
     this.routes.forEach((component, route) => {
       if (mainPath.startsWith(route) && route.length > matchedRoute.length) {
         matchedRoute = route;
@@ -30,16 +30,16 @@ export class Router {
       }
     });
 
-    const content = document.getElementById('content');
+    const content = document.getElementById("content");
     content.innerHTML = matchedComponent ? matchedComponent() : this.notFound();
-    
+
     // Mise à jour des classes actives dans le menu
     this.updateActiveMenuItems();
 
     // Défilement vers la section si spécifiée
     if (section) {
-      const sectionId = section.replace(/[^a-z0-9-]/g, '-');
-      setTimeout(() => {
+      const sectionId = section.replace(/[^a-z0-9-]/g, "-");
+      window.requestAnimationFrame(() => {
         const element = document.getElementById(sectionId);
         if (element) {
           // Récupère la position de l'élément
@@ -48,11 +48,14 @@ export class Router {
           const offset = 180; // Par exemple, la hauteur du menu fixe
           window.scrollTo({
             top: offsetTop - offset,
-            behavior: 'smooth'
+            behavior: "smooth",
           });
         }
-      }, 100);
+      });
     }
+
+    // Réinitialisez la position du défilement
+    window.scrollTo(0, 0);
   }
 
   updateActiveMenuItems() {
