@@ -1,27 +1,28 @@
-export function renderDons() {
+export function renderAdhesions() {
   return `
     <div class="page-content">
-      <h1 class="page-title">Appel aux dons</h1>
-
-      <!-- Section Appel au don -->
-      <section id="appel-au-don" class="section">
+      <h1 class="page-title">Adhésions Totem</h1>
+      <!-- Section Adhésion Totem -->
+      <section id="adhesion-totem" class="section">
         
-          <h3>Donner pour le projet de création du centre de soins du Var.</h3>
-          <p>Soutenez un projet structurant pour la conservation de la faune sauvage du Var.</p>
+          <h3>Adhérer à Totem c’est soutenir la conservation et la biodiversité.</h3>
+          <p>Pour soutenir notre action, vous pouvez également adhérer à notre association.</p>
 
         <div class="subsection">
-          <!-- Lien vers le formulaire de don HelloAsso -->
-          <a href="https://www.helloasso.com/associations/totem-paca/formulaires/1/" target="_blank">
-            <button class="don-button">
-              Faire un don
-            </button>
-          </a>
+          <div>
+            <!-- Lien vers la page d'adhésion HelloAsso -->
+            <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2025" target="_blank">
+              <button class="don-button">
+                Adhérer à Totem
+              </button>
+            </a>
+          </div>
         </div>
 
         <div class="subsection">
           <div>
-            <a href="https://www.helloasso.com/associations/totem-paca/formulaires/1/" target="_blank">
-              <img src="images/HelloAsso.png" alt="Faire un don" width="25%">
+            <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2025" target="_blank">
+              <img src="images/HelloAsso.png" alt="Adhésion 2025" width="25%">
             </a>
           </div>
         </div>
@@ -33,8 +34,7 @@ export function renderDons() {
     </div>
 
     <style>
-
-      .section {
+.section {
         flex: 1;
         min-width: 45%;
         box-sizing: border-box;

@@ -36,7 +36,7 @@ export function renderContact() {
       </section>
 
       <!-- Formulaire presse avec seulement l'email affiché -->
-      <section id="formulaire-presse" class="section">
+      <section id="press-room" class="section">
         <h2 class="section-title">Press room</h2>
         <form id="pressForm" class="contact-form" action="https://formspree.io/f/mgverwov" method="POST">
           <div class="form-group">

@@ -8,6 +8,7 @@ import { renderEquipe } from './js/pages/equipe.js';
 import { renderSituationPACA } from './js/pages/situation-paca.js';
 import { renderActions } from './js/pages/actions.js';
 import { renderDons } from './js/pages/dons.js';
+import { renderAdhesions } from "./js/pages/adhesion.js";
 import { renderContact } from './js/pages/contact.js';
 import { renderMentions } from "./js/pages/mentions.js";
 
@@ -24,7 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
   router.addRoute('l-equipe', renderEquipe);
   router.addRoute('la-situation-en-paca', renderSituationPACA);
   router.addRoute('nos-actions-et-nos-projets', renderActions);
-  router.addRoute('dons-et-adhesion', renderDons);
+  router.addRoute('dons', renderDons);
+  router.addRoute("adhesion", renderAdhesions);
   router.addRoute('contact-et-presse', renderContact);
   router.addRoute("mentions", renderMentions);
 
