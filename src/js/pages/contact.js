@@ -6,9 +6,7 @@ export function renderContact() {
       <!-- Formulaire de contact -->
       <section id="formulaire-contact" class="section">
         <h2 class="section-title">Formulaire de contact</h2>
-        <div>
-          <p>En cas de découverte d'un animal sauvage en détresse, merci de préférer un appel au <a href="tel:0483650279">04 83 65 02 79</a></p>
-        </div>
+        <p style="margin-bottom: 20px;">En cas de découverte d'un animal sauvage en détresse, merci de préférer un appel au <a href="tel:0483650279">04 83 65 02 79</a></p>
         <form id="contactForm" class="contact-form" action="https://formspree.io/f/mgverwov" method="POST">
           <div class="form-group">
             <label for="name">Nom</label>
