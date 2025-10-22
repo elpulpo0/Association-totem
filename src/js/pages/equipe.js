@@ -65,7 +65,7 @@ export function renderEquipe() {
             </ul>
           </div>
           <div class="board-member">
-            <h3>Marie Breyre, Membre de la direction collégiale</h3>
+            <h3>Marie Breyer, Membre de la direction collégiale</h3>
             <ul>
               <li>Salariée</li>
             </ul>
