@@ -1,20 +1,15 @@
-export function renderAdhesions() {
+export function renderBenevolat() {
   return `
     <div class="page-content">
-      <h1 class="page-title">Adhésions Totem</h1>
+      <h1 class="page-title">Bénévolat</h1>
       <!-- Section Adhésion Totem -->
       <section id="adhesion-totem" class="section">
         
-          <h3>Adhérer à TOTEM c’est soutenir la conservation et la biodiversité.</h3>
+          <h3>Devenir bénévole à TOTEM, c'est devenir actif dans la préservation de la biodiversité.</h3>
 
         <div class="subsection">
           <div>
-            <!-- Lien vers la page d'adhésion HelloAsso -->
-            <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2025" target="_blank">
-              <button class="don-button">
-                Adhérer à Totem
-              </button>
-            </a>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScQe1CmRp8j8A5pmiQNSvCLZqTYZHOHyHib9-p25yNALpQUoA/viewform?embedded=true" width="640" height="2952" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
           </div>
         </div>
 

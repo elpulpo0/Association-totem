@@ -11,14 +11,15 @@ import { renderDons } from './js/pages/dons.js';
 import { renderAdhesions } from "./js/pages/adhesion.js";
 import { renderContact } from './js/pages/contact.js';
 import { renderMentions } from "./js/pages/mentions.js";
+import { renderBenevolat } from './js/pages/benevolat.js';
 
 
 document.addEventListener('DOMContentLoaded', () => {
   createNavigation();
   footer();
-  
+
   const router = new Router();
-  
+
   // Ajout des routes
   router.addRoute('accueil', renderHome);
   router.addRoute('nos-missions', renderMissions);
@@ -29,5 +30,5 @@ document.addEventListener('DOMContentLoaded', () => {
   router.addRoute("adhesion", renderAdhesions);
   router.addRoute('contact-et-presse', renderContact);
   router.addRoute("mentions", renderMentions);
-
+  router.addRoute("benevolat", renderBenevolat);
 });

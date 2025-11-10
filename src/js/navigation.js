@@ -9,6 +9,7 @@ export const menuStructure = {
   "Nos actions et nos projets": ["La ligne SOS", "Les centres de soins", "Le point relais martinets"],
   "Dons": [],
   "Adhésions": [],
+  "Bénévolat": [],
   "Contact et presse": ["Formulaire contact", "Press room"],
 };
 
