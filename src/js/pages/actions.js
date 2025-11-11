@@ -4,7 +4,7 @@ export function renderActions() {
       <h1 class="page-title">Nos actions et nos projets</h1>
 
       <section id="la-ligne-sos" class="section">
-        <h2 class="section-title">La ligne SOS</h2>
+        <h2 class="section-title">La ligne SOS faune sauvage</h2>
         <div class="phone-container">
           <p>En cas de découverte d’un animal de la faune sauvage en détresse dans le Var, contactez nous au:</p>
           <a href="tel:0483650279" class="phone-link">

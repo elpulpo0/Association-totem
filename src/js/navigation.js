@@ -6,7 +6,7 @@ export const menuStructure = {
     "Le contexte",
     "Quelques chiffres",
   ],
-  "Nos actions et nos projets": ["La ligne SOS", "Les centres de soins", "Le point relais martinets"],
+  "Nos actions et nos projets": ["La ligne SOS faune sauvage", "Les centres de soins", "Le point relais martinets"],
   "Dons": [],
   "Adhésions": [],
   "Bénévolat": [],
