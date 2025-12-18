@@ -49,7 +49,7 @@ export function renderEquipe() {
           <div class="board-member">
             <h3>Barbara Sesma, Membre de la direction collégiale</h3>
             <ul>
-              <li>Responsable marketing</li>
+              <li>Responsable communication</li>
             </ul>
           </div>
           <div class="board-member">
