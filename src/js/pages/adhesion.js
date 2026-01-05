@@ -10,7 +10,7 @@ export function renderAdhesions() {
         <div class="subsection">
           <div>
             <!-- Lien vers la page d'adhésion HelloAsso -->
-            <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2025" target="_blank">
+            <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2026" target="_blank">
               <button class="don-button">
                 Adhérer à Totem
               </button>
@@ -20,7 +20,7 @@ export function renderAdhesions() {
 
         <div class="subsection">
           <div>
-            <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2025" target="_blank">
+            <a href="https://www.helloasso.com/associations/totem-paca/adhesions/adhesion-2026" target="_blank">
               <img src="images/HelloAsso.png" alt="Adhésion 2025" width="25%">
             </a>
           </div>
