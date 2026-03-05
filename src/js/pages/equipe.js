@@ -72,9 +72,6 @@ export function renderEquipe() {
           </div>
           <div class="board-member">
             <h3>Laurie Vignon, Administratrice</h3>
-            <ul>
-              <li>Salariée</li>
-            </ul>
           </div>
         </div>
       </section>
