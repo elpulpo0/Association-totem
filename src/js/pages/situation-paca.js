@@ -75,13 +75,14 @@ export function renderSituationPACA() {
             <p><em>*Source : Biodivpaca LPO</em></p>
           </div>
           <div class="stat-card">
-            <h3>800</h3>
-            <p>C'est le nombre d'appels reçus sur la ligne SOS faune sauvage de Totem sur la saison 2024 pour les animaux du Var</p>
+            <h3>2400</h3>
+            <p>C'est le nombre d'appels reçus sur la ligne SOS faune sauvage de Totem</p>
+            <p>sur la saison 2025 pour les animaux du Var.</p>
           </div>
           <div class="stat-card">
-            <h3>4,229</h3>
-            <p>C’est le nombre de prises en charge toutes espèces confondues en 2023</p>
-            <p>(1972 à la LPO PACA et 1257 au CSAM) avec un pic d’accueils entre mai et août.</p>
+            <h3>622</h3>
+            <p>C’est le nombre d'accueils d'animaux en provenance du Var</p>
+            <p>au centre de soins de la LPO PACA dans le Vaucluse.</p>
           </div>
         </div>
 

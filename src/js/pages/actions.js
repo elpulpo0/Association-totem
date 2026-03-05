@@ -19,28 +19,32 @@ export function renderActions() {
         <img src="images/Chauve-souris.png" alt="Chauve-souris" class="image-hero">
       </section>
 
-      <section id="les-centres-de-soins" class="section">
-        <h2 class="section-title">Les Centres de soins</h2>
+      <section id="le-centre-de-soins-du-var" class="section">
+        <h2 class="section-title">Le centre de soins du Var</h2>
         <p class="intro-text">
-          L’association TOTEM œuvre à l’ouverture de nouveaux centres de soins à la faune sauvage en région PACA car le faible nombre de structures existantes entraîne la perte de plusieurs centaines d’individus chaque année. 
+          L’association TOTEM œuvre à l’ouverture d'un nouveau centre de soins à la faune sauvage dans le Var car le faible nombre de structures existantes entraîne la perte de plusieurs centaines d’individus chaque année. 
           Les grands mammifères sont particulièrement touchés car ils ne sont pas pris en charge dans la région. Il en va de même pour les oiseaux d’eau, pourtant 2<sup>ème</sup> groupe d’oiseaux les plus menacés au monde et non pris en charge dans le Var et les Alpes-Maritimes.
         </p>
 
         <div class="care-centers-container">
-          <!-- Bloc Centre de soins du Var -->
           <div id="centre-var" class="care-center">
-            <h3 class="subsection-title">Centre de soins du Var</h3>
-            <p>TOTEM-PACA développe un projet unique : créer un centre de soins pour accueillir, soigner et réhabiliter les animaux sauvages en détresse dans le Var, un département encore dépourvu de structure dédiée. Ce centre combinera des espaces de soins intensifs et des volières pour préparer les animaux à retrouver leur habitat naturel.
-              En plus de sauver des centaines d’animaux chaque année, ce projet vise à sensibiliser le public, former des professionnels et contribuer à la protection de la biodiversité de la région. Ensemble, nous pouvons offrir une seconde chance à la faune sauvage.</p>
+            <h3 class="subsection-title">Notre projet se concrétise!</h3>
+            <p>Notre centre se situera sur un terrain du Conservatoire du littoral sur la commune du Pradet.
+            Une convention de 30 ans a été signée début avril 2025.
+            Le Permis de construire, après des mois de travail, nous a été accordé en décembre 2025 pour la rénovation et les travaux vont débuter ce printemps.
+            Le site est composé de 2 bâtiments (env. 600 m²) à rénover pour salles de soins, chirurgie, hospitalisation et de 1,5 hectare de terrain pour les volières, enclos de rééducation, bassins (oiseaux d’eau, etc.)</p>
           </div>
 
-          <!-- Bloc Centre de soins oiseaux d'eau -->
-          <div id="centre-oiseaux-eau" class="care-center">
-            <h3 class="subsection-title">Centre de soins oiseaux d'eau</h3>
-            <p>Le centre du Var étant une structure multi espèce, les oiseaux d’eau seront reçus et soignés. 
-              Cependant, compte tenu du besoin au niveau régional, TOTEM-PACA ambitionne d’ouvrir, dans la région, une structure dédiée spécifiquement à ces espèces marines.
-            </p>
-          </div>
+          <a href="files/Presentation_Centre_TOTEM.pdf" target="_blank">
+            <button class="download-button">
+              Télécharger notre dossier de présentation du projet.
+            </button>
+          </a>
+        </div>
+
+        <div class="image-container">
+          <img src="images/centre_var.jpeg" alt="Vue du bâtiment principal à rénover" class="species-image">
+          <p class="image-caption"><em>Vu du bâtiment principal à rénover</em></p>
         </div>
       </section>
 
@@ -85,7 +89,7 @@ export function renderActions() {
 
     <style>
     /* Section principale */
-      #les-centres-de-soins {
+      #le-centre-de-soins-du-var {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -168,6 +172,21 @@ export function renderActions() {
         font-size: 0.9em;
         color: #666;
         margin-top: 10px;
+      }
+
+      .don-button, .download-button {
+        padding: 10px 20px;
+        background-color: var(--color-orange);
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .don-button:hover, .download-button:hover {
+        background-color: #0056b3;
       }
 
       /* Responsivité */

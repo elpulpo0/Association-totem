@@ -17,6 +17,7 @@ export function renderHome() {
       .bird-image {
         width: 100%; /* L'image occupe toute la largeur de son conteneur */
         height: auto;
+        margin-top: 30px;
         border-radius: 50%; /* Garder l'image dans l'ovale */
         object-fit: cover; /* S'assure que l'image reste bien ajustée */
       }
@@ -73,16 +74,7 @@ export function renderHome() {
 
     <div class="section_home">
       <h1 class="page-title">ASSOCIATION TOTEM</h1>
-
-      <!-- Numéro de téléphone cliquable -->
-      <div class="phone-container">
-        <p>En cas de découverte d’un animal de la faune sauvage en détresse dans le Var, contactez nous au:</p>
-        <a href="tel:0483650279" class="phone-link">
-          <div class="phone-image">
-            <img src="images/phone_home.png" alt="Appeler" class="phone-img"/>
-          </div>
-        </a>
-      </div>
+      <h2>Centre de soins à la faune sauvage du Var en cours de création au Pradet</h2>
 
       <!-- Conteneur de l'image d'oiseau sans bordure -->
       <div class="bird-image-container">
@@ -90,6 +82,18 @@ export function renderHome() {
           <img src="images/Grand-cormoran-copyright-Anne-Hirsch.jpg" alt="Grand-cormoran-copyright-Anne-Hirsch" class="bird-image" />
           <figcaption class="caption">Grand cormoran, photo prise par Anne Hirsch</figcaption>
         </figure>
+      </div>
+    </div>
+
+    <div class="section_home">
+    <!-- Numéro de téléphone cliquable -->
+      <div class="phone-container">
+        <p>En cas de découverte d’un animal de la faune sauvage en détresse dans le Var, contactez nous au:</p>
+        <a href="tel:0483650279" class="phone-link">
+          <div class="phone-image">
+            <img src="images/phone_home.png" alt="Appeler" class="phone-img"/>
+          </div>
+        </a>
       </div>
     </div>
   `;

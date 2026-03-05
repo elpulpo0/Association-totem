@@ -47,25 +47,31 @@ export function renderEquipe() {
             </ul>
           </div>
           <div class="board-member">
-            <h3>Barbara Sesma, Membre de la direction collégiale</h3>
+            <h3>Barbara Sesma, Administratrice</h3>
             <ul>
               <li>Responsable communication</li>
             </ul>
           </div>
           <div class="board-member">
-            <h3>Julien Veys, Membre de la direction collégiale</h3>
+            <h3>Julien Veys, Administrateur</h3>
             <ul>
               <li>Vétérinaire</li>
             </ul>
           </div>
           <div class="board-member">
-            <h3>Mathilde Prévot, Membre de la direction collégiale</h3>
+            <h3>Mathilde Prévot, Administratrice</h3>
             <ul>
               <li>Vétérinaire</li>
             </ul>
           </div>
           <div class="board-member">
-            <h3>Marie Breyer, Membre de la direction collégiale</h3>
+            <h3>Marie Breyer, Administratrice</h3>
+            <ul>
+              <li>Salariée</li>
+            </ul>
+          </div>
+          <div class="board-member">
+            <h3>Laurie Vignon, Administratrice</h3>
             <ul>
               <li>Salariée</li>
             </ul>
