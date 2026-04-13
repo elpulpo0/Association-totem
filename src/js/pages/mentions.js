@@ -24,7 +24,7 @@ export function renderMentions() {
           <h2>Association TOTEM</h2>
           <p><strong>Statut :</strong> Association Loi 1901</p>
           <p><strong>Objet :</strong> Protéger la biodiversité de la Région Sud PACA à travers plusieurs objectifs : le soin, la connaissance, la protection, l’éducation, la recherche et la mobilisation.</p>
-          <p><strong>Adresse :</strong> Villa 38 Résidence les Bois de la Mourachonne, 335 Route des Aspres, 06370 Mouans-Sartoux</p>
+          <p><strong>Adresse :</strong> 1131A Chemin de la Cibonne, 83220 Le Pradet</p>
           <p><strong>SIRET :</strong> 923 993 349 000 37</p>
           <p><strong>NRA :</strong> W061016594</p>
           <p><strong>Date de déclaration :</strong> 08 août 2023</p>
